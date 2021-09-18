@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.xiaolvkeji.helloworld.MainActivity">
+
+<!--    <Toolbar-->
+<!--        android:id="@+id/action_bar"-->
+<!--        android:background="@color/black"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:targetApi="lollipop" />-->
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写时间到文件-普通安卓"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:onClick="write2TxtAndroid"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开-普通安卓"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:onClick="openFile"
+        />
+    <Button
+        android:id="@+id/buttonyx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写时间到文件-元心系统"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:onClick="write2TxtYX"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开-元心"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="179dp"
+        android:onClick="openFileYX"
+        />
+
+
+       <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webview"
+            android:layout_marginTop="200dp"
+           />
+
+
+
+</LinearLayout>
